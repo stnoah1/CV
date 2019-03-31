@@ -26,7 +26,7 @@
 
 \documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
 
-\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+\geometry{left=1cm, top=1cm, right=1cm, bottom=1cm, footskip=0cm} % Configure page margins with geometry
 
 \fontdir[fonts/] % Specify the location of the included fonts
 
@@ -66,25 +66,22 @@
 \position{Master Student} % Your expertise/fields {\engskip\cdotp\enskip}
 % \quote{``Make the change that you want to see in the world."} % A quote or statement
 
-\makecvfooter{\today}{Hyung-gun Chi~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
-
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
 \makecvheader % Print the header
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------- --------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
-\input{cv-sections/education.tex}
-\input{cv-sections/skills.tex}
+\input{cv-sections/education_cv.tex}
+\input{cv-sections/skills_cv.tex}
 \input{cv-sections/publications.tex}
-\input{cv-sections/patents.tex}
-\input{cv-sections/research_experience.tex}
-\input{cv-sections/working_experience.tex}
+\input{cv-sections/working_experience_cv.tex}
+\input{cv-sections/research_experience_cv.tex}
 
 % \input{cv-sections/presentation.tex}
 % \input{cv-sections/committees.tex}
