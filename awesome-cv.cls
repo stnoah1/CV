@@ -578,7 +578,6 @@
   \end{tabular*}%
 }
 
-
 \newcommand*{\cvpub}[2]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
@@ -586,6 +585,14 @@
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
     \entrytitlestyle{#1}\\
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#2}}
+  \end{tabular*}%
+}
+
+\newcommand*{\cvtext}[1]{%
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#1}}
   \end{tabular*}%
 }
 
