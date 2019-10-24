@@ -103,7 +103,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=1.0cm, top=0.5cm, right=1.0cm, bottom=0.5cm, footskip=.5cm}
+\geometry{left=1.0cm, top=0.5cm, right=1.0cm, bottom=2cm, footskip=2cm}
 
 %% Header & Footer
 % Set offset to each header and footer
@@ -162,7 +162,7 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+% \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
