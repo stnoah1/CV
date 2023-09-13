@@ -27,7 +27,7 @@
 \documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
 \usepackage{multicol,lipsum}
 
-\geometry{left=2cm, top=1.5cm, right=2cm, bottom=1cm, footskip=0cm} % Configure page margins with geometry
+\geometry{left=1.cm, top=1cm, right=1.cm, bottom=1cm, footskip=0cm} % Configure page margins with geometry
 
 \fontdir[fonts/] % Specify the location of the included fonts
 \def\bl{\textcolor{blue}}
@@ -82,16 +82,15 @@
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
 
-\input{cv-sections/research_interest.tex}
-\input{cv-sections/education.tex}
-\input{cv-sections/working_experience.tex}
-\input{cv-sections/skills.tex}
-\newpage
-\input{cv-sections/publications.tex}
+\input{cv-sections/research_interest.tex} \vspace{-.5em}
+\input{cv-sections/education.tex}\vspace{-.5em}
+\input{cv-sections/working_experience.tex}\vspace{-.5em}
+\input{cv-sections/publications.tex}\vspace{-.5em}
 \input{cv-sections/academic_activities.tex}
-% \input{cv-sections/honors.tex}
+\input{cv-sections/skills.tex}
+\input{cv-sections/honors.tex}
 % \input{cv-sections/extracurricular.tex}
-% \input{cv-sections/references.tex}
+\input{cv-sections/references.tex}
 
 %----------------------------------------------------------------------------------------
 
